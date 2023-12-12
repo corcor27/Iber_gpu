@@ -1,4 +1,4 @@
-## How to create an enviorment for using tensorflow with gpu support on the ibers cluster 
+# How to create an enviorment for using tensorflow with gpu support on the ibers cluster 
 
 If you need anaconda start at 1, if annaconda installed go to 3.  
 
@@ -15,7 +15,7 @@ If you need anaconda start at 1, if annaconda installed go to 3.
 mkdir -p $CONDA_PREFIX/etc/conda/activate.d  
 mkdir -p $CONDA_PREFIX/etc/conda/deactivate.d  
 
-# Add commands to the scripts  
+# Add commands to the scripts there are two lines to map the files
 printf 'export OLD_LD_LIBRARY_PATH=${LD_LIBRARY_PATH}\nexport LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${CONDA_PREFIX}/lib/\n' > $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh  
 printf 'export LD_LIBRARY_PATH=${OLD_LD_LIBRARY_PATH}\nunset OLD_LD_LIBRARY_PATH\n' > $CONDA_PREFIX/etc/conda/deactivate.d/env_vars.sh  
 
