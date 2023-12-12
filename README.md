@@ -24,6 +24,8 @@ source $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
 
 You only have to entre these 5 commands once
 
-6) The "run-ABER.sh" is your batch file to submit the job, to run your file simply change the python file named to your script that you want to run.
+6) To test run "run-ABER.sh" and in your out put file you should find that it displays the gpu
+
+7) The "run-ABER.sh" is your batch file to submit the job, to run your file simply change the python file named to your script that you want to run.
 
 you should now be good to go.   
