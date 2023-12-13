@@ -83,4 +83,4 @@ dependencies:
     - urllib3==2.1.0
     - wrapt==1.16.0
     - zipp==3.17.0
-prefix: /impacs/cot13/.conda/envs/IBERS_GPU
+
