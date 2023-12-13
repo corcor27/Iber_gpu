@@ -8,7 +8,7 @@
 #SBATCH --mem-per-cpu=20G
 #SBATCH --account=hpcuser
 #SBATCH --export=ALL
-conda activate CME
+conda activate IBERS_GPU
 nvidia-smi
 python CNN_test.py
 
