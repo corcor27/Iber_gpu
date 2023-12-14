@@ -4,7 +4,7 @@ If you need anaconda start at 1, if annaconda installed go to 3.
 
 1) first install a version of anaconda to contain your enviroment. I personally used Miniconda as it solves dependencys faster than the base system. https://docs.conda.io/projects/miniconda/en/latest/  
 
-2) intiate your conda enviroment with "conda init" and then resart your connection for the update to take place.  
+2) intiate your conda enviroment with "conda init" and then reset your connection for the update to take place.  
 
 3) Now to create your anaconda enviroment please use the .yml file constained within this repositry. to this enter "conda env create --name envname --file=ibers_env_gpu.yml". This will create you an enviroment called IBERS_GPU  
 
