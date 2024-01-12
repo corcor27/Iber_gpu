@@ -29,3 +29,9 @@ You only have to entre these 5 commands once
 7) The "run-ABER.sh" is your batch file to submit the job, to run your file simply change the python file named to your script that you want to run.
 
 you should now be good to go.   
+
+#Problems
+
+As we had to directly path the cuda file to the enviroment, you might have issues with your text editors with a "Segmentation fault"
+
+To fix, add into you .bashrc file add the following: alias nano='LD_LIBRARY_PATH="" command nano'
