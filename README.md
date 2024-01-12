@@ -30,7 +30,7 @@ You only have to entre these 5 commands once
 
 you should now be good to go.   
 
-#Problems
+# Problems
 
 As we had to directly path the cuda file to the enviroment, you might have issues with your text editors with a "Segmentation fault"
 
